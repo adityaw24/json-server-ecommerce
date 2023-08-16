@@ -1,9 +1,162 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "product": [
+    {
+      "code": "PRD-1",
+      "productName": "product 1",
+      "description": "description product 1",
+      "qty": 5,
+      "price": 50,
+      "img": "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=474&q=80",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "code": "PRD-2",
+      "productName": "product 2",
+      "description": "description product 2",
+      "qty": 2,
+      "img": "https://images.unsplash.com/photo-1587590227264-0ac64ce63ce8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "price": 50
+    },
+    {
+      "id": 3,
+      "code": "PRD-3",
+      "productName": "product 3",
+      "description": "description product 3",
+      "qty": 2,
+      "img": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJhbmRvbSUyMG9iamVjdHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 50
+    },
+    {
+      "code": "PRD-4",
+      "productName": "product 4",
+      "description": "description product 4",
+      "qty": "20",
+      "price": 50,
+      "img": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJhbmRvbSUyMG9iamVjdHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "code": "PRD-5",
+      "productName": "product 5",
+      "description": "description product 5",
+      "qty": 2,
+      "img": "https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHJhbmRvbSUyMG9iamVjdHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 50
+    },
+    {
+      "code": "PRD-6",
+      "productName": "product 6",
+      "description": "description product 6",
+      "qty": "10",
+      "img": "https://images.unsplash.com/photo-1541480601022-2308c0f02487?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJhbmRvbSUyMG9iamVjdHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "price": 50,
+      "id": 6
+    },
+    {
+      "code": "tes",
+      "productName": "tes",
+      "description": "tes",
+      "qty": "5",
+      "price": "10",
+      "img": "https://images.unsplash.com/photo-1485550409059-9afb054cada4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmFuZG9tJTIwb2JqZWN0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 8
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "checkout": [
+    {
+      "idProduct": 1,
+      "idUser": "1",
+      "qty": 1,
+      "price": 50,
+      "id": 1
+    },
+    {
+      "idProduct": 2,
+      "idUser": "2",
+      "qty": 1,
+      "price": 50,
+      "id": 2
+    },
+    {
+      "idProduct": 1,
+      "idUser": "2",
+      "qty": 1,
+      "price": 50,
+      "id": 3
+    },
+    {
+      "idProduct": 4,
+      "idUser": "2",
+      "qty": 3,
+      "price": 150,
+      "id": 4
+    },
+    {
+      "idProduct": 6,
+      "idUser": 2,
+      "qty": 4,
+      "price": 200,
+      "id": 5
+    },
+    {
+      "idProduct": 3,
+      "idUser": 2,
+      "qty": 4,
+      "price": 200,
+      "id": 6
+    },
+    {
+      "idProduct": 5,
+      "idUser": 2,
+      "qty": 1,
+      "price": 50,
+      "id": 7
+    },
+    {
+      "idProduct": 3,
+      "idUser": 1,
+      "qty": 3,
+      "price": 150,
+      "id": 8
+    },
+    {
+      "idProduct": 4,
+      "idUser": 1,
+      "qty": 3,
+      "price": 150,
+      "id": 9
+    },
+    {
+      "idProduct": 4,
+      "idUser": 1,
+      "qty": 5,
+      "price": 250,
+      "id": 10
+    },
+    {
+      "idProduct": 1,
+      "idUser": 1,
+      "qty": 5,
+      "price": 250,
+      "id": 11
+    }
   ],
-  "profile": { "name": "typicode" }
+  "orders": [
+    {
+      "idCheckout": 10,
+      "idProduct": 4,
+      "idUser": 1,
+      "shippingAddress": "admin address",
+      "id": 1
+    },
+    {
+      "idCheckout": 11,
+      "idProduct": 1,
+      "idUser": 1,
+      "shippingAddress": "admin address",
+      "id": 2
+    }
+  ]
 }
