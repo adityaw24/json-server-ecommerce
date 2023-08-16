@@ -56,7 +56,7 @@
     },
     {
       "code": "tes",
-      "productName": "tes",
+      "productName": "tes prod",
       "description": "tes",
       "qty": "5",
       "price": "10",
@@ -157,6 +157,48 @@
       "idUser": 1,
       "shippingAddress": "admin address",
       "id": 2
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@mail.com",
+      "password": "$2a$10$d6yLt0Xq0b6VzzoWbPePFelsOwwD3oz/v.cgZmj6jvhbTL2C0Yob6",
+      "name": "Admin",
+      "role": "admin",
+      "gender": "male",
+      "birthDate": "2000-12-30",
+      "address": "admin address",
+      "id": 1
+    },
+    {
+      "email": "user1@mail.com",
+      "password": "$2a$10$FuSajDCUWz2IlYfW5bNoeuSq4qTbkWjtlPJ/vkYlb.Dz9740IFN0m",
+      "name": "User 1",
+      "role": "user",
+      "gender": "male",
+      "birthDate": "2000-12-30",
+      "address": "user 1 address",
+      "id": 2
+    },
+    {
+      "email": "admin2@mail.com",
+      "password": "$2a$10$oiZXsbc6rIr89kfh2PwRo.1ukdE/fsd4pWzoQTH1ChbFsOd04SMVq",
+      "name": "admin 2",
+      "role": "admin",
+      "gender": "female",
+      "birthDate": "1997-01-30",
+      "address": "admin 2 address",
+      "id": 3
+    },
+    {
+      "name": "admin 4",
+      "password": "$2a$10$eoMWgEBa6WUeQy88Ljhxu.Ka.DAaBgL8OLKPavWZ3.qSaLSicT2my",
+      "email": "admin4@mail.com",
+      "gender": "male",
+      "role": "admin",
+      "birthDate": "1997-12-01",
+      "address": "address admin 4",
+      "id": 4
     }
   ]
 }
